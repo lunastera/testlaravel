@@ -29,8 +29,8 @@ a:hover{
 	-o-transition: all .3s linear;
 	-ms-transition: all .3s linear;
 }
-.navbar-invisible .navbar-shrink{
-	background: rgba(255,255,255,0.8);
+.navbar-invisible.navbar-shrink{
+	background: rgb(255,255,255);
 	color: #333;
 	height: 50px;
 	transition: all .3s linear;
@@ -39,8 +39,8 @@ a:hover{
 	-o-transition: all .3s linear;
 	-ms-transition: all .3s linear;
 }
-.navbar-invisible .navbar-shrink .nav li a,
-.navbar-invisible .navbar-shrink .navbar-brand{
+.navbar-invisible.navbar-shrink .nav li a,
+.navbar-invisible.navbar-shrink .navbar-brand{
 	color: #D43F3A;
 	transition: all .3s linear;
 	-moz-transition: all .3s linear;
